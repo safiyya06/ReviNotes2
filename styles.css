@@ -1,0 +1,9 @@
+header.masthead {
+  text-align: center;
+  color: blue;
+  background-image: url("../img/MAI-New-Building.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
