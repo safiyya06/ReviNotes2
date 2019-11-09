@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 
     <title>notepage</title>
   </head>
@@ -30,18 +31,24 @@
                         </ul>
                         </div>
                       </nav>
-                      <span>Multiline message is:</span>
-<p style="white-space: pre-line;">{{ message }}</p>
-<br>
-<textarea v-model="message" placeholder="add multiple lines"></textarea>
+                      
 
-
-                      <div class="container">
-                          <h1>topicName</h1>
-                      </div>
                       <div>
-                          <embed src="My Programming Concepts Cheatsheet - Grey.pdf" width="1000" height="500">
+                          <h1>topicName</h1>
+                        <div class="row">
+                          <div class="col-8">
+                            <!-- <div> -->
+                                <embed class="preparedNotes" src="My Programming Concepts Cheatsheet - Grey.pdf">
+                            <!-- </div> -->
+                          </div>
+                          <div class="col-4"> 
+                            <div class="form-group">
+                              <textarea class="form-control" v-model="addedNotes" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                          </div>
+                        </div>
                       </div>
+
 
 
    

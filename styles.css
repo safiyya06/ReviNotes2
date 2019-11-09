@@ -7,3 +7,7 @@ header.masthead {
   background-position: center center;
   background-size: cover;
 }
+
+.preparedNotes {
+  width: inherit;
+}
