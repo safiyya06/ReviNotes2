@@ -11,4 +11,6 @@ html {
   scroll-behavior: smooth;
 }
 
+.center-align {
+  padding: 125px;
 }
