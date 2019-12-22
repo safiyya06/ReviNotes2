@@ -1,5 +1,6 @@
 .preparedNotes {
   width: inherit;
+  height: 80vh;
 }
 
 #home-section {
@@ -19,4 +20,8 @@ html {
 
 .center-align {
   padding: 125px;
+}
+
+#exampleFormControlTextarea1 {
+  height: 80vh;
 }
