@@ -15,38 +15,34 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="styles.css" />
 
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-    <link rel = "stylesheet" href = "styles.css"></link>
-    <script src = "main.js"></script>
-
-
-    <title>About Our Website</title>
+    <title>mathchap1</title>
   </head>
-  <body class=" light-blue lighten-4">
-    <div class="container mt-5 ">
-       
-        
-    
-      <h2>About Our Website</h2>
-      <h5 class="container mt-3 ">
-        Our website was made to help all those students out there who are
-        struggling to keep up with their revision, and also for students like
-        us, whose notes seem to have fast-running legs and hide-and-seek champion brains for reasons we cannot understand
-        This website was our end-year coding project, which was given by
-        EchoedLabs after a year of weekly coding classes. Our website provides
-        notes for various subjects in the lower secondary level. Not to worry,
-        we will gradually add more subjects and subsequently, the upper
-        secondary level. We really hope our website helps you in your revision.
-        Do share our website with others hehe! Thank you!
-     
-      </h5>
-      </class>
-      
-       
-   </div>
+  <body>
+    <div>
+      <div>
+        <h1>Math</h1>
+        <h2>Chapter 3 - Approximation and Estimation</h2>
+      </div>
+      <div class="row">
+        <div class="col-8">
+          <!-- <div> -->
+          <embed class="preparedNotes" src="pdf/math sec 1 chap 3.pdf" />
+          <!-- </div> -->
+        </div>
+        <div class="col-4">
+          <div class="form-group">
+            <textarea
+              class="form-control"
+              v-model="addedNotes"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
