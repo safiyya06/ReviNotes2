@@ -5,6 +5,7 @@
 
 #home-section {
   background-image: url("books3.png");
+  background-image: url("img/books3.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
