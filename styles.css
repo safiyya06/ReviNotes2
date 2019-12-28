@@ -1,3 +1,8 @@
+body {
+  font-family: 'Bad Script', cursive;
+}
+
+
 .preparedNotes {
   width: inherit;
   height: 80vh;
@@ -12,7 +17,7 @@
   background-size: cover;
   height: 90vh;
 
-  color: white;
+  color: white ;
 }
 
 html {
@@ -25,4 +30,8 @@ html {
 
 #exampleFormControlTextarea1 {
   height: 80vh;
+}
+
+#nav a {
+  color: black;
 }
