@@ -10,17 +10,14 @@ body {
 
 #home-section {
   background-image: url("books3.png");
-<<<<<<< HEAD
-=======
   background-image: url("img/books3.png");
->>>>>>> 88b848b66548366ea7896c86afd04848dd9cdeed
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
   height: 90vh;
 
-  color: white;
+  color: white ;
 }
 
 html {
@@ -33,4 +30,8 @@ html {
 
 #exampleFormControlTextarea1 {
   height: 80vh;
+}
+
+#nav a {
+  color: black;
 }
