@@ -36,3 +36,7 @@ html {
 #nav a {
   color: black;
 }
+
+#second-section {
+  height: 100vh;
+}
