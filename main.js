@@ -3,12 +3,12 @@
 var app = new Vue({
   el: '#app',
   data: {
-    todos: [],
+    notes: [],
     addedNotes:"" 
 },
 created: function() {
-  if (localStorage.getItem("todos")){
-      this.todos = JSON.parse(localStorage.getItem("todos"));
+  if (localStorage.getItem("addnotes")){
+      this.notes = JSON.parse(localStorage.getItem("addnotes"));
   }
 },
   methods:{
@@ -17,21 +17,17 @@ created: function() {
               name: this.newaddedNotes,
               isDone: false
           };
-          this.todos.unshift(newTodo);
-          this.newTodoName = "";
+          this.todos.unshift(newaddedNotes);
+          this.newaddedNotes = "";
           this.persistData();
 },
-  deleteTodo: function(index) {
-      this.todos.splice(index, 1);
-      this.persistData();
-},
-  toggleDone: function(index) {
-      this.todos[index].isDone = !this.todos[index].isDone;
+  deleteNotes: function(index) {
+      this.notes.splice(index, 1);
       this.persistData();
 },
   
   persistData: function() {
-      localStorage.setItem("todos", JSON.stringify(this.todos));
+      localStorage.setItem("notes", JSON.stringify(this.notes));
   },
 },
 });
