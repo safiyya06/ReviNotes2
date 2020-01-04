@@ -37,7 +37,7 @@ var app2 = new Vue({
     {
       no: 3,
       name: "Math Chapter 3 - Approximation And Estimation",
-      link: "MathSes1Chap3.html",
+      link: "MathSec1Chap3.html",
     },
     {
       no: 4,
