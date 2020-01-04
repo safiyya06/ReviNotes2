@@ -48,22 +48,32 @@ var app2 = new Vue({
     },
     {
       no: 5,
-      name: "i forgot",
+      name: "Math Chapter 5 - i forgot",
       link:"dfbh",
     },
     {
       no: 6,
-      name: "i forgot",
+      name: "Math Chapter 6 - i forgot",
       link:"vjuvb",
     },
     {
       no: 7,
-      name: "i forgot",
+      name: " Math Chapter 7 - i forgot",
       link:"vjuvb",
     },
     {
       no: 8,
-      name: "i forgot",
+      name: "Math Chapter 8 - i forgot",
+      link:"vjuvb",
+    },
+    {
+      no: 9,
+      name: "Math Chapter 9 - i forgot",
+      link:"vjuvb",
+    },
+    {
+      no: 10,
+      name: "Math Chapter 10 - i forgot",
       link:"vjuvb",
     },
     ]
