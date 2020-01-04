@@ -37,13 +37,9 @@ html {
   color: black;
 }
 
-#second-section {
+/* #second-section {
   height: 100vh;
-}
-
-#third-section {
-  height: 100vh;
-}
+} */
 
 /* Fixed sidenav, full height */
 .sidebar {
