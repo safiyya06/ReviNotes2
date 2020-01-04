@@ -1,7 +1,27 @@
 
 
-var app = new Vue({
-  el: '#app',
+var appm1chap1 = new Vue({
+  el: '#appm1chap1',
+  data: {
+    notes: ""
+  },
+  created: function () {
+    if (localStorage.getItem("testNotes")) {
+      this.notes = localStorage.getItem("testNotes")
+      }
+    },
+  methods: {
+    saveNotes: function () {
+      this.persistData();
+    },
+    persistData: function () {
+      localStorage.setItem("testNotes", this.notes)
+    },
+  },
+});
+
+var appm1chap2 = new Vue({
+  el: '#appm1chap2',
   data: {
     notes: ""
   },
