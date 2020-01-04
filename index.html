@@ -72,32 +72,14 @@
 
       </div>
 
-        <div class="col-9">
+      <div class="col-9">
         <div class="row">
           <div class="col-sm-4">
-            <div class="card">
+            <div v-for="chapter in chapters" class="card">
               <div class="card-body">
                 <h5 class="card-title">Secondary 1 - Mathematics</h5>
-                <p class="card-text">Math Chapter 1 - Factors And Multiples</p>
-                <a href="MathSec1Chap1.html" class="btn btn-primary">Open Notes</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Secondary 1 - Mathematics</h5>
-                <p class="card-text">Math Chapter 2 - Real Numbers</p>
-                <a href="MathSec1Chap2.html" class="btn btn-primary">Open Notes</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Secondary 1 - Mathematics</h5>
-                <p class="card-text">Math Chapter 3 - Approximation And Estimation</p>
-                <a href="MathSec1Chap3.html" class="btn btn-primary">Open Notes</a>
+                <p class="card-text">{{chapter.no}}</p>
+                <!-- <a class="btn light-blue lighten-4 " v-bind:href="">Open Notes</a> -->
               </div>
             </div>
           </div>
