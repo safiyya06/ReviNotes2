@@ -74,6 +74,36 @@ var app2 = new Vue({
       name: "Math Chapter 10 - i forgot",
       link:"vjuvb",
     },
+    {
+      no: 11,
+      name: "Math Chapter 11 - i forgot",
+      link:"vjuvb",
+    },
+    {
+      no: 12,
+      name: "Math Chapter 12 - i forgot",
+      link:"vjuvb",
+    },
+    {
+      no: 13,
+      name: "Math Chapter 13 - i forgot",
+      link:"vjuvb",
+    },
+    {
+      no: 14,
+      name: "Math Chapter 14 - i forgot",
+      link:"vjuvb",
+    },
+    {
+      no: 15,
+      name: "Math Chapter 15 - i forgot",
+      link:"vjuvb",
+    },
+    {
+      no: 16,
+      name: "Math Chapter 16 - i forgot",
+      link:"vjuvb",
+    },
     ]
   }
 });
