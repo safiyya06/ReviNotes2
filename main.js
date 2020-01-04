@@ -6,8 +6,9 @@ var appm1chap1 = new Vue({
     notes: ""
   },
   created: function () {
-    if (localStorage.getItem("testNotes")) {
-      this.notes = localStorage.getItem("testNotes")
+    if (localStorage.getItem("m1chap1testNotes")) {
+      this.notes = localStorage.getItem("m1chap1testNotes")
+      console.log(localStorage)
       }
     },
   methods: {
@@ -15,7 +16,7 @@ var appm1chap1 = new Vue({
       this.persistData();
     },
     persistData: function () {
-      localStorage.setItem("testNotes", this.notes)
+      localStorage.setItem("m1chap1testNotes", this.notes)
     },
   },
 });
@@ -26,8 +27,8 @@ var appm1chap2 = new Vue({
     notes: ""
   },
   created: function () {
-    if (localStorage.getItem("testNotes")) {
-      this.notes = localStorage.getItem("testNotes")
+    if (localStorage.getItem("m1chap2testNotes")) {
+      this.notes = localStorage.getItem("m1chap2testNotes")
       }
     },
   methods: {
@@ -35,7 +36,27 @@ var appm1chap2 = new Vue({
       this.persistData();
     },
     persistData: function () {
-      localStorage.setItem("testNotes", this.notes)
+      localStorage.setItem("m1chap2testNotes", this.notes)
+    },
+  },
+});
+
+var appm2chap2 = new Vue({
+  el: '#appm2chap2',
+  data: {
+    notes: ""
+  },
+  created: function () {
+    if (localStorage.getItem("m2chap1testNotes")) {
+      this.notes = localStorage.getItem("m2chap1testNotes")
+      }
+    },
+  methods: {
+    saveNotes: function () {
+      this.persistData();
+    },
+    persistData: function () {
+      localStorage.setItem("m2chap1testNotes", this.notes)
     },
   },
 });
