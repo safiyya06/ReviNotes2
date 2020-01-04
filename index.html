@@ -73,12 +73,10 @@
 
         <div class="col-9">
         <div class="row">
-          <div class="col-sm-4">
-            <div class="card">
+            <div v-for="chapter in chapters" class="card col-sm-4">
               <div class="card-body">
-                <h5 class="card-title">Secondary 1 - Mathematics</h5>
-                <p class="card-text">Math Chapter 1 - Factors And Multiples</p>
-                <a href="MathSec1Chap1.html" class="btn btn-primary">Open Notes</a>
+                <h5 class="card-title">{{chapter.name}}</h5>
+                <a v-bind:href="chapter.link" class="btn light-blue lighten-4">Open Notes</a>
               </div>
             </div>
           
