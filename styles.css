@@ -99,3 +99,9 @@ html {
   float: right;
   padding-right: 8px;
 }
+
+
+/* ---------Notes Chapter Pages------------ */
+.notepageFonts h1, h2 {
+  font-family: 'Kalam', cursive;
+}
