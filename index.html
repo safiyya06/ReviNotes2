@@ -77,8 +77,8 @@
             <div v-for="chapter in chapters" class="card col-sm-4">
               <div class="card-body">
                 <h5 class="card-title">Secondary 1 - Mathematics</h5>
-                <p class="card-text">{{chapter.no}}</p>
-                <!-- <a class="btn light-blue lighten-4 " v-bind:href="">Open Notes</a> -->
+                <p class="card-text">{{chapter.name}}</p>
+                <a class="btn light-blue lighten-4 " v-bind:href="chapter.link">Open Notes</a>
               </div>
             </div>
       </div>
