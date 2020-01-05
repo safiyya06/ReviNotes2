@@ -199,6 +199,10 @@ var app2 = new Vue({
     currentChapters:[],
   },
 
+  created: function() {
+    this.currentChapters = this.chapters.filter(chapter => chapter.level == "Secondary 1" && chapter.subject == "Math");
+  },
+
   methods: {
     getChapters: function(levelchoice, id) {
       console.log(levelchoice)
