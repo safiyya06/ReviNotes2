@@ -179,13 +179,12 @@ var app2 = new Vue({
     },
     {
       no: 17,
-      name: "Science Chapter 1 - "
+      name: "Science Chapter 1 - The Scientific Endeavour",
+      link: "",
+      subject: "Science",
+      level: "Secondary 1",
     },
-    
     {
-      no: 16,
-      name: "Math Chapter 16 - i forgot sec 2",
-      link:"vjuvb",
       no: 18,
       name: "Science Chapter 2 - Exploring Diversity Of Matter By Its Physical Properties",
       link: "",
