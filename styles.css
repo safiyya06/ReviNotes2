@@ -94,6 +94,6 @@ html {
 
 
 /* ---------Notes Chapter Pages------------ */
-.notepageFonts h1, h2 {
+.notepageFonts {
   font-family: 'Kalam', cursive;
 }
