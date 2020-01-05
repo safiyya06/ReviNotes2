@@ -196,6 +196,9 @@ var app2 = new Vue({
       level: "Secondary 2",
     },
     ],
+    currentChapters:[],
+  },
+
   methods: {
     getChapters: function(levelchoice, id) {
       console.log(levelchoice)
