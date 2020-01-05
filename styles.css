@@ -43,7 +43,7 @@ html {
   z-index: 1;
   top: 0;
   left: 0;
-  /* background-color: #111; */
+  background-color: rgb(147, 248, 243);
   overflow-x: hidden;
   padding-top: 20px;
 }
@@ -83,7 +83,6 @@ html {
 /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
 .dropdown-container {
   display: none;
-  background-color: #262626;
   padding-left: 8px;
 }
 
