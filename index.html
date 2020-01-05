@@ -53,17 +53,18 @@
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-container">
-            <a href="#">Science</a>
-            <a href="#">Mathematics</a>
-            <a href="#">Geography</a>
+            <button id="sec1Sci" v-on:click="getChapters('Secondary 1','Science')">Science</button>
+            <button id="sec1Math" v-on:click="getChapters('Secondary 1','Math')">Mathematics</button>
+            <button id="sec1Geo" v-on:click="getChapters('Secondary 1','Geography')">Geography</button>
+            
           </div>
           <button class="dropdown-btn">Secondary 2
             <i class="fa fa-caret-down"></i>
           </button>
-          <div class="dropdown-container">
-            <a href="#">Science</a>
-            <a href="#">Mathematics</a>
-            <a href="#">Geography</a>
+          <div class="dropdown-container"> 
+            <button id="sec2Sci" v-on:click="getChapters('Secondary 2','Science')">Science</button>
+            <button id="sec2Math" v-on:click="getChapters('Secondary 2','Math')">Mathematics</button>
+            <button id="sec2Geo" v-on:click="getChapters('Secondary 2','Geography')">Geography</button>       
           </div>
         </div>
       </div>
