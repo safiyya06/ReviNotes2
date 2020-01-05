@@ -59,7 +59,7 @@ html {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 20px;
-  color: #818181;
+  color: black;
   display: block;
   border: none;
   background: none;
@@ -71,7 +71,7 @@ html {
 
 /* On mouse-over */
 .sidebar a:hover, .dropdown-btn:hover {
-  color: #f1f1f1;
+  color: black;
 }
 
 /* Main content */
@@ -83,8 +83,7 @@ html {
 
 /* Add an active class to the active dropdown button */
 .active {
-  background-color: green;
-  color: white;
+    color: black;
 }
 
 /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
