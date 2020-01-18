@@ -79,7 +79,9 @@
             <div v-for="chapter in currentChapters" class="card col-sm-4">
               <div class="card-body">
                 <h5 class="card-title">{{chapter.name}}</h5>
-                <a v-bind:href="chapter.link" class="btn light-blue lighten-4">Open Notes</a>
+                <a v-bind:href="chapter.link" class="btn light-blue lighten-4" v-show="chapter.link">Open Notes</a>
+                <a class="btn disabled" v-show="!chapter.link">Coming soon</a>
+
               </div>
             </div>
           
