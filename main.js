@@ -173,7 +173,7 @@ var app2 = new Vue({
     {
       no: 16,
       name: "Math Chapter 16 - Data Handling",
-      link:"vjuvb",
+      link:"",
       subject: "Math",
       level: "Secondary 1",
     },
