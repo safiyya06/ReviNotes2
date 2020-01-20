@@ -101,3 +101,7 @@ html {
 .notepageFonts {
   font-family: 'Kalam', cursive;
 }
+
+button :hover {
+  cursor: pointer;
+}
