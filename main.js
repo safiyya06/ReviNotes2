@@ -89,7 +89,7 @@ var app2 = new Vue({
     {
       no: 4,
       name: "Math Chapter 4 - Introduction to Algebra",
-      link: "",
+      link: "MathSec1Chap4.html",
       subject: "Math",
       level: "Secondary 1",
     },
@@ -257,7 +257,7 @@ var app2 = new Vue({
     {
       no: 28,
       name: "Geography Chapter 3 - Tropical Rainforest",
-      link: "",
+      link: "GeoSec1Chap3.html",
       subject: "Geography",
       level: "Secondary 1",
     },
@@ -278,7 +278,7 @@ var app2 = new Vue({
     {
       no: 31,
       name: "Math Chapter 1 - Proportion",
-      link: "",
+      link: "MathSec2Chap1.html",
       subject: "Math",
       level: "Secondary 2",
     },
@@ -467,11 +467,7 @@ var app2 = new Vue({
 
   methods: {
     getChapters: function(levelchoice, id) {
-      console.log(levelchoice)
-      console.log(id)
       this.currentChapters = this.chapters.filter(chapter => chapter.level == levelchoice && chapter.subject == id);
-      console.log("hello")
-
     }
   },
 
