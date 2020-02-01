@@ -1,11 +1,10 @@
 #app2 {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Indie Flower", cursive;
 }
 
 #aboutOurWebsite {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
 }
-
 
 .preparedNotes {
   width: inherit;
@@ -21,7 +20,7 @@
   background-size: cover;
   height: 90vh;
 
-  color: white ;
+  color: white;
 }
 
 html {
@@ -35,7 +34,6 @@ html {
 #exampleFormControlTextarea1 {
   height: 80vh;
 }
-
 
 #nav a {
   color: black;
@@ -53,7 +51,8 @@ html {
 }
 
 /* Style the sidenav links and the dropdown button */
-.sidebar a, .dropdown-btn {
+.sidebar a,
+.dropdown-btn {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 20px;
@@ -61,14 +60,15 @@ html {
   display: block;
   border: none;
   background: none;
-  width:100%;
+  width: 100%;
   text-align: left;
   cursor: pointer;
   outline: none;
 }
 
 /* On mouse-over */
-.sidebar a:hover, .dropdown-btn:hover {
+.sidebar a:hover,
+.dropdown-btn:hover {
   color: black;
 }
 
@@ -81,7 +81,7 @@ html {
 
 /* Add an active class to the active dropdown button */
 .active {
-    color: black;
+  color: black;
 }
 
 /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
@@ -96,8 +96,7 @@ html {
   padding-right: 8px;
 }
 
-
 /* ---------Notes Chapter Pages------------ */
 .notepageFonts {
-  font-family: 'Kalam', cursive;
+  font-family: "Kalam", cursive;
 }
