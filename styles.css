@@ -98,13 +98,9 @@ html {
 
 /* ---------Notes Chapter Pages------------ */
 .notepageFonts {
-<<<<<<< HEAD
-  font-family: "Kalam", cursive;
-=======
   font-family: 'Kalam', cursive;
 }
 
 button :hover {
   cursor: pointer;
->>>>>>> f6f9a15f85a9dab71daeb4edf735eed1caf01e49
 }
