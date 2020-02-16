@@ -8,7 +8,6 @@ var appm1chap1 = new Vue({
   created: function () {
     if (localStorage.getItem("m1chap1testNotes")) {
       this.notes = localStorage.getItem("m1chap1testNotes")
-      console.log(localStorage)
       }
     },
   methods: {
