@@ -462,12 +462,14 @@ var app2 = new Vue({
   },
 
   created: function() {
-    this.currentChapters = this.chapters.filter(chapter => chapter.level == "Secondary 1" && chapter.subject == "Math");
-  },
+    this.currentChapters = 
+      this.chapters.filter(chapter => chapter.level == "Secondary 1" && chapter.subject == "Math");
+  },  
 
   methods: {
     getChapters: function(levelchoice, id) {
-      this.currentChapters = this.chapters.filter(chapter => chapter.level == levelchoice && chapter.subject == id);
+      this.currentChapters = 
+        this.chapters.filter(chapter => chapter.level == levelchoice && chapter.subject == id);
     }
   },
 
